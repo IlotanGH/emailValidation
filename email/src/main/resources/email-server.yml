@@ -1,0 +1,12 @@
+# Port
+server:
+  port: 2222
+# Spring properties
+spring:
+  application:
+    name: email-web  # Identify this application
+# ViewResolver
+  mvc:
+     view:
+       prefix: /jsp/
+       suffix: .jsp
