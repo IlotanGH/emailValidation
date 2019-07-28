@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "bb2a0585-953b-41b5-acc9-5b89853558b1",
+		"name": "EMAIL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/email/validate/josegmailcom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2222/email/validate/josegmailcom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2222",
+					"path": [
+						"email",
+						"validate",
+						"josegmailcom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/email/validate/jose@gmailcom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2222/email/validate/jose@gmailcom",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2222",
+					"path": [
+						"email",
+						"validate",
+						"jose@gmailcom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/email/validate/josegmail.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2222/email/validate/josegmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2222",
+					"path": [
+						"email",
+						"validate",
+						"josegmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/email/validate/jose@gmail.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2222/email/validate/jose@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2222",
+					"path": [
+						"email",
+						"validate",
+						"jose@gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/email/validate/jose.natoli@gmail.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2222/email/validate/jose.natoli@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2222",
+					"path": [
+						"email",
+						"validate",
+						"jose.natoli@gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/email/validate/jose.natoli@external.gmail.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2222/email/validate/jose.natoli@external.gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2222",
+					"path": [
+						"email",
+						"validate",
+						"jose.natoli@external.gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2222/email/validate/jose.natoli@external.gmail.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2222/email/validate/jose.natoli@external.gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2222",
+					"path": [
+						"email",
+						"validate",
+						"jose.natoli@external.gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2223/email/validate/jose.natoli@external.gmail.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:2223/email/validate/jose.natoli@external.gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2223",
+					"path": [
+						"email",
+						"validate",
+						"jose.natoli@external.gmail.com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
